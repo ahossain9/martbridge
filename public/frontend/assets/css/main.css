@@ -1,0 +1,100 @@
+.product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-list li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.product-list li:last-child {
+    border-bottom: none;
+}
+
+.product-list li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.product-list li h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-list li p.price {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-area i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.search-area span {
+    font-size: 16px;
+}
+
+/* Optional styles for hover effect */
+.search-area:hover {
+    background-color: #e2e2e2;
+}
+
+.list-group-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list-group-item a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list-group-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#searchInput {
+    margin-bottom: 10px;
+}
+
+.toast-title {
+    font-size: 16px !important;
+}
+.toast-message {
+    font-size: 14px !important;
+}
+.toast-success {
+    background-color: #39f !important;
+}
+
+.cart-dropdown .dropdown-menu {
+    max-width: 450px;
+    padding: 20px;
+}
+
+.cart-dropdown .product-cart-details {
+    max-width: 300px;
+}
+
